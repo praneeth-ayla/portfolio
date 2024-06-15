@@ -16,6 +16,7 @@ export default function Approach() {
 				{approach.map(({ title, description, color }, index) => (
 					<Card
 						title={title}
+						key={index}
 						description={description}
 						icon={<PhaseBtn text={`Phase ${index + 1}`} />}>
 						<CanvasRevealEffect
