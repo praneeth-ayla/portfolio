@@ -2,6 +2,7 @@ export const heroMainText = "Unleash Your Creativity. Let Us Bring It To Life.";
 
 export const heroDesc = "Hi! I'm HasimTM, a Video Editor based in Earth.";
 
+// Don't change
 export const navItems = [
 	{ name: "About", link: "#about" },
 	{ name: "Projects", link: "#projects" },
@@ -9,6 +10,7 @@ export const navItems = [
 	{ name: "Contact", link: "#contact" },
 ];
 
+// Don't try to change this
 export const gridItems = [
 	{
 		id: 1,
@@ -32,7 +34,7 @@ export const gridItems = [
 	},
 	{
 		id: 3,
-		title: "My tech stack",
+		title: "My stack",
 		description: "I constantly try to improve",
 		className: "lg:col-span-2 md:col-span-3 md:row-span-2",
 		imgClassName: "",
@@ -42,7 +44,7 @@ export const gridItems = [
 	},
 	{
 		id: 4,
-		title: "Tech enthusiast with a passion for development.",
+		title: "Video editor passionate about crafting captivating visual stories.",
 		description: "",
 		className: "lg:col-span-2 md:col-span-3 md:row-span-1",
 		imgClassName: "",
@@ -51,16 +53,6 @@ export const gridItems = [
 		spareImg: "/b4.svg",
 	},
 
-	{
-		id: 5,
-		title: "Currently building a JS Animation library",
-		description: "The Inside Scoop",
-		className: "md:col-span-3 md:row-span-2",
-		imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-		titleClassName: "justify-center md:justify-start lg:justify-center",
-		img: "/b5.svg",
-		spareImg: "/grid.svg",
-	},
 	{
 		id: 6,
 		title: "Do you want to start a project together?",
@@ -73,53 +65,16 @@ export const gridItems = [
 	},
 ];
 
+// Add the last part of the youtube video link and if short add type : short else long
 export const projects = [
-	{
-		id: 1,
-		title: "3D Solar System Planets to Explore",
-		des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-		img: "/p1.svg",
-		iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-		link: "/ui.earth.com",
-	},
-	{
-		id: 2,
-		title: "Yoom - Video Conferencing App",
-		des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-		img: "/p2.svg",
-		iconLists: [
-			"/next.svg",
-			"/tail.svg",
-			"/ts.svg",
-			"/stream.svg",
-			"/c.svg",
-		],
-		link: "/ui.yoom.com",
-	},
-	{
-		id: 3,
-		title: "AI Image SaaS - Canva Application",
-		des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-		img: "/p3.svg",
-		iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-		link: "/ui.aiimg.com",
-	},
-	{
-		id: 4,
-		title: "Animated Apple Iphone 3D Website",
-		des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-		img: "/p4.svg",
-		iconLists: [
-			"/next.svg",
-			"/tail.svg",
-			"/ts.svg",
-			"/three.svg",
-			"/gsap.svg",
-		],
-		link: "/ui.apple.com",
-	},
+	{ link: "UaBbliXjxH4", type: "short" },
+	{ link: "Oly6ayyckZI", type: "long" },
+	{ link: "UaBbliXjxH4", type: "short" },
+	{ link: "Oly6ayyckZI", type: "long" },
 ];
 
+// If you have image of the client add it
+// Add more testimonials as you get more ;)
 export const testimonials = [
 	{
 		quote: "HashTM exceeded my expectations when it came to video editing services. Initially, I was skeptical, thinking it might be just another generic pitch, but HashTM proved to be a genuine and skilled professional.\nHe took the time to understand my vision for the videos, delving into the intricacies of my target audience. The end result was not only a flawlessly edited video but also a significant reduction in my stress and time spent on crafting the perfect narrative.\n HashTM's dedication to putting himself in my shoes showcased his commitment to delivering more than just a service - he aimed for a tailored and impactful solution. I highly recommend HashTM for a partnership that goes beyond the ordinary in the realm of video editing.",
@@ -133,6 +88,8 @@ export const testimonials = [
 	},
 ];
 
+// replace your social links, if you don't have any one of the social remove that one
+//  always have one and replace only the link
 export const socialMedia = [
 	{
 		id: 1,
@@ -151,6 +108,7 @@ export const socialMedia = [
 	},
 ];
 
+// Only 3 phases, try changing only the title and description
 export const approach = [
 	{
 		title: "Planning and strategy",
@@ -172,4 +130,5 @@ export const approach = [
 	},
 ];
 
-export const email = "praneeth@gmail.com";
+// Your mail id
+export const email = "hashimTM@gmail.com";
