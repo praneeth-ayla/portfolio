@@ -3,6 +3,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { heroDesc, heroMainText } from "@/data";
 
 const Hero = () => {
 	return (
@@ -33,17 +34,17 @@ const Hero = () => {
 			<div className="flex justify-center relative my-20 z-10">
 				<div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
 					<TextGenerateEffect
-						words="Unleash Your Creativity. Let Us Bring It To Life."
+						words={heroMainText}
 						className="text-center text-[40px] md:text-5xl lg:text-6xl"
 					/>
 
 					<p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-						Hi! I&apos;m HasimTM, a Vider Editor based in Earth.
+						{heroDesc}
 					</p>
 
-					<a href="#about">
+					<a href="#projects">
 						<MagicButton
-							title="Show my work"
+							title="My work"
 							icon={<FaLocationArrow />}
 							position="right"
 						/>
