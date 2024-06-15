@@ -222,3 +222,24 @@ export const socialMedia = [
 		img: "/link.svg",
 	},
 ];
+
+export const approach = [
+	{
+		title: "Planning and strategy",
+		description:
+			"We'll work with you to create a roadmap for your video project. Together, we'll identify the target audience, determine the key features, and map out the structure and navigation of the video. We'll discuss the content requirements and create a plan to bring your video dreams to life.",
+		color: "bg-blue-950 rounded-3xl overflow-hidden",
+	},
+	{
+		title: "Development and project updates",
+		description:
+			"When we are clear on the structure and cost of your video project, we get down to business. My team and I dedicate our time and energy to your project, and we ensure that progress is on track, and your vision is realized. We prioritize quality, transparency, and customer satisfaction to create a professional video that exceeds your expectations.",
+		color: "bg-emerald-900 rounded-3xl overflow-hidden",
+	},
+	{
+		title: "Development and Launch",
+		description:
+			"Once we have a design that meets your approval, we bring it to life with our video editing skills. We turn your ideas into a professional video, crafting every frame through meticulous attention to detail. Our goal is to produce a video that captivates and engages your audience.",
+		color: "bg-sky-600 rounded-3xl overflow-hidden",
+	},
+];
