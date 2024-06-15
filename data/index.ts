@@ -212,14 +212,17 @@ export const socialMedia = [
 	{
 		id: 1,
 		img: "/git.svg",
+		link: "test.com",
 	},
 	{
 		id: 2,
 		img: "/twit.svg",
+		link: "test.com",
 	},
 	{
 		id: 3,
 		img: "/link.svg",
+		link: "test.com",
 	},
 ];
 
@@ -243,3 +246,5 @@ export const approach = [
 		color: "bg-sky-600 rounded-3xl overflow-hidden",
 	},
 ];
+
+export const email = "praneeth@gmail.com";
