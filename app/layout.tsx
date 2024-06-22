@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 
 import "./globals.css";
 import { ThemeProvider } from "./provider";
+import { logoUrl } from "@/data";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +24,7 @@ export default function RootLayout({
 			<head>
 				<link
 					rel="icon"
-					href="/jsm-logo.png"
+					href={logoUrl}
 					sizes="any"
 				/>
 			</head>

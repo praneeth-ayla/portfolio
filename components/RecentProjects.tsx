@@ -14,22 +14,23 @@ export default function RecentProjects() {
 				{projects.map((item, index) => (
 					<div key={index}>
 						{item.type === "long" ? (
-							<iframe
+							<video
 								width="560"
 								height="315"
-								src={
-									"https://www.youtube.com/embed/" + item.link
-								}
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-								allowFullScreen={true}
-								title={`YouTube Video ${index}`}></iframe>
+								autoPlay
+								controls
+								src={item.link}></video>
 						) : (
-							<iframe
-								src={"https://youtube.com/embed/" + item.link}
-								className="h-96 w-auto"></iframe>
+							<video
+								className="h-[500px] w-auto"
+								autoPlay
+								controls
+								src={item.link}></video>
 						)}
 					</div>
 				))}
+
+				<div></div>
 			</div>
 		</div>
 	);

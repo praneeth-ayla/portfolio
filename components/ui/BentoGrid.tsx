@@ -189,7 +189,7 @@ export const BentoGridItem = ({
 								title={
 									copied
 										? "Email is Copied!"
-										: "Copy my email address"
+										: "Copy our email address"
 								}
 								icon={<IoCopyOutline />}
 								position="left"
